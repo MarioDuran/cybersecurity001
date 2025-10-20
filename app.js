@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 8003;
+const PORT = process.env.PORT || 10000;
 const SALT_ROUNDS = 1
 const ACC_DIR = path.join(__dirname, 'accounts');
 fs.mkdirSync(ACC_DIR, { recursive: true });
